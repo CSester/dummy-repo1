@@ -1,4 +1,9 @@
 {
-	"dependencies": [],
-	"main_script": "deploy/deploy.py"
+  "dependencies": [
+    {
+      "repository": "git@github.com:CSester/dummy-repo2.git",
+      "commit": "deploy_branch"
+    }
+  ],
+  "main_script": "deploy/deploy.py"
 }
