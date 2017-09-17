@@ -1,4 +1,5 @@
-from fabric.api import run
+from fabric.api import run, env
 
 def runDeploy():
-  run('uname -s')
+  print(env)
+  run('echo "dummy dump" >> dump.txt')
